@@ -21,8 +21,6 @@
   <ItemGroup>
     <None Include="Shader\lamp.frag" />
     <None Include="Shader\lamp.vs" />
-    <None Include="Shader\lighting.frag" />
-    <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
   </ItemGroup>
@@ -31,7 +29,7 @@
     <ClInclude Include="Mesh.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fuentesDeLuz.cpp" />
+    <ClCompile Include="Maquina de estados.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
