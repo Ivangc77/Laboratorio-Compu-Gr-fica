@@ -149,9 +149,11 @@
     <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
+    <None Include="Shader\skybox.frag" />
+    <None Include="Shader\skybox.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KeyFrames.cpp" />
+    <ClCompile Include="zoo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
